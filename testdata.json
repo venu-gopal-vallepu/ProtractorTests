@@ -1,0 +1,16 @@
+[
+    {
+        "userName": "vdhf",
+        "password": "venu1234",
+        "matcher": "Error: The email address is badly formatted."
+    },
+    {
+        "userName": "venugopal.vellepu@walkingtree.tech",
+        "password": "fcvj",
+        "matcher": "Error: The password is invalid or the user does not have a password."
+    },
+    {
+        "userName": "venugopal.vellepu@walkingtree.tech",
+        "password": "venu1234"
+    }
+]

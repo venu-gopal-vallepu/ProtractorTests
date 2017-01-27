@@ -1,0 +1,23 @@
+{
+  "name": "lion_app_pageobjects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "test": "protractor conf.js",
+    "test:local": "protractor conf.local.js"
+  },
+  "author": "Venu Gopal Reddy",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^0.2.39",
+    "jasmine": "^2.5.3",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor": "^5.0.0",
+    "xlsx": "^0.8.1"
+  },
+  "devDependencies": {
+    "excel-as-json": "^1.0.4",
+    "jasmine-spec-reporter": "^3.2.0"
+  }
+}
