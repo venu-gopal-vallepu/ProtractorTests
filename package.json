@@ -5,6 +5,7 @@
   "main": "conf.js",
   "scripts": {
     "test": "protractor conf.js",
+    "pretest:local": "node data-init",
     "test:local": "protractor conf.local.js"
   },
   "author": "Venu Gopal Reddy",
@@ -14,6 +15,7 @@
     "jasmine": "^2.5.3",
     "jasmine-data-provider": "^2.2.0",
     "protractor": "^5.0.0",
+    "q": "^1.4.1",
     "xlsx": "^0.8.1"
   },
   "devDependencies": {

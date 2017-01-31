@@ -1,0 +1,23 @@
+[
+  {
+    "userName": "venu",
+    "password": "venu",
+    "elementType": "textbox",
+    "Locators": "",
+    "matcher": "Error: The email address is badly formatted."
+  },
+  {
+    "userName": "venugopal.vellepu@walkingtree.tech",
+    "password": "venu",
+    "elementType": "textbox",
+    "Locators": "",
+    "matcher": "Error: The password is invalid or the user does not have a password."
+  },
+  {
+    "userName": "venugopal.vellepu@walkingtree.tech",
+    "password": "venu1234",
+    "elementType": "button",
+    "Locators": "",
+    "matcher": ""
+  }
+]
