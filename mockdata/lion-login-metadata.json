@@ -1,0 +1,17 @@
+[
+  {
+    "Element": "userName",
+    "ElementType": "textbox",
+    "Locator": "//input[@name='email']"
+  },
+  {
+    "Element": "password",
+    "ElementType": "textbox",
+    "Locator": "//input[@name='password']"
+  },
+  {
+    "Element": "loginbutton",
+    "ElementType": "button",
+    "Locator": "Sign in"
+  }
+]

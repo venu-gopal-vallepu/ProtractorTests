@@ -7,9 +7,9 @@ var actionMethods = function () {
   this.launchBrowser = function () {
     browser.get(conf.baseUrl)
   };
-  this.enterEmailId = function ( value) {
-    //element(by.locator).sendKeys(value);
-    element(by.xpath("//input[@name='email']")).sendKeys(value);
+  this.enterData = function (by, value) {
+    // element(by.locator).sendKeys(value);
+    element(by).sendKeys(value);
   };
   this.enterPassword = function (value) {
     element(by.xpath("//input[@name='password']")).sendKeys(value);

@@ -1,5 +1,11 @@
-var convertExcel = require("./excelUtils").convertExcel;
+var convertMetaExcel = require("./excelUtils").convertMetaExcel;
+var convertDataExcel = require("./excelUtils").convertDataExcel;
 
-convertExcel(function (err, excelData) {
+
+convertMetaExcel(function (err, excelData) {
+    console.log(excelData)
+});
+
+convertDataExcel(function (err, excelData) {
     console.log(excelData)
 });
