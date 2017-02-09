@@ -6,7 +6,7 @@
   "scripts": {
     "test": "protractor conf.js",
     "pretest:local": "node data-init",
-    "test:local": "protractor conf.local.js"
+     "test:local": "protractor conf.local.js"
   },
   "author": "Venu Gopal Reddy",
   "license": "ISC",

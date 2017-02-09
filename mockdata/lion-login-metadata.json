@@ -2,16 +2,86 @@
   {
     "Element": "userName",
     "ElementType": "textbox",
-    "Locator": "//input[@name='email']"
+    "Locator": "xp&//input[@name='email']"
   },
   {
     "Element": "password",
     "ElementType": "textbox",
-    "Locator": "//input[@name='password']"
+    "Locator": "xp&//input[@name='password']"
   },
   {
     "Element": "loginbutton",
     "ElementType": "button",
-    "Locator": "Sign in"
+    "Locator": "bt&Sign in"
+  },
+  {
+    "Element": "validateloginmessage",
+    "ElementType": "validatetext",
+    "Locator": "div.alert-message"
+  },
+  {
+    "Element": "AcceptLoginAlert",
+    "ElementType": "button",
+    "Locator": "css&button.alert-button"
+  },
+  {
+    "Element": "LoanPurpose",
+    "ElementType": "button",
+    "Locator": "css&ion-segment[name=\"purchaseOrRefi\"] ion-segment-button:nth-child(2)"
+  },
+  {
+    "Element": "PhoneNumber",
+    "ElementType": "textbox",
+    "Locator": "xp&//input[@name='phoneNumber']"
+  },
+  {
+    "Element": "OPT_contact Policy",
+    "ElementType": "button",
+    "Locator": "xp&//ion-segment-button[text()='No']"
+  },
+  {
+    "Element": "SaveLoanPurpose",
+    "ElementType": "button",
+    "Locator": "css&button.app-button.save-continue"
+  },
+  {
+    "Element": "validateContactMessage",
+    "ElementType": "validatetext",
+    "Locator": "css&div.error-box ion-content ion-label"
+  },
+  {
+    "Element": "acceptErrors",
+    "ElementType": "button",
+    "Locator": "css&bl-validation-error div.error-box div.page-bar button"
+  },
+  {
+    "Element": "openAdressForm",
+    "ElementType": "button",
+    "Locator": "xp&//ion-input[@name='address']"
+  },
+  {
+    "Element": "Adress Line",
+    "ElementType": "textbox",
+    "Locator": "css&input[name=\"addressLine\"]"
+  },
+  {
+    "Element": "State",
+    "ElementType": "textbox",
+    "Locator": "css&input[name=\"city\"]"
+  },
+  {
+    "Element": "City ",
+    "ElementType": "textbox",
+    "Locator": "css&input[name=\"state\"]"
+  },
+  {
+    "Element": "Zip",
+    "ElementType": "textbox",
+    "Locator": "css&input[name=\"zip\"]"
+  },
+  {
+    "Element": "closeAdressForm",
+    "ElementType": "button",
+    "Locator": "css&button.auto-done"
   }
 ]

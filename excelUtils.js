@@ -12,7 +12,7 @@ convertDataExcel = require('excel-as-json').processFile;
 module.exports = {
   convertMetaExcel: function (mcb) {
     convertMetaExcel(metaFileUrl, metajsonFile, false, function (err, data) {
-    //  console.log(data);
+    // console.log(data);
       mcb(err, data);
     });
   },
@@ -22,7 +22,6 @@ module.exports = {
       dcb(err, data);
     });
   }
-
 };
 
 

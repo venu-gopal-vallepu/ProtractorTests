@@ -1,17 +1,22 @@
 [
   {
-    "userName": "venu",
-    "password": "venu",
-    "matcher": "Error: The email address is badly formatted."
-  },
-  {
-    "userName": "venugopal.vellepu@walkingtree.tech",
-    "password": "venu",
-    "matcher": "Error: The email address is badly formatted."
-  },
-  {
-    "userName": "venugopal.vellepu@walkingtree.tech",
+    "userName": "venugopal@gmail.com",
     "password": "venu1234",
-    "matcher": ""
+    "loginbutton": "submit",
+    "validateloginmessage": "",
+    "AcceptLoginAlert": "",
+    "LoanPurpose": "Refinance",
+    "PhoneNumber": "",
+    "OPT_contact Policy": "No",
+    "SaveLoanPurpose": "save",
+    "validateContactMessage": "Contact Phone Number was left blank",
+    "acceptErrors": "continue",
+    "openAdressForm": "adressForm",
+    "Adress Line": "259 street, #342",
+    "State": "Newyork",
+    "City ": "Stephentown",
+    "Zip": 12168,
+    "closeAdressForm": "submit",
+    "PrimaryResidence": "primary"
   }
 ]
